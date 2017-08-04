@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MystifyStrings_Example' do
+  pod 'MystifyStrings', :path => '../'
+
+  target 'MystifyStrings_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
