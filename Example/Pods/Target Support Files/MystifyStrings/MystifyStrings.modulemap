@@ -1,0 +1,6 @@
+framework module MystifyStrings {
+  umbrella header "MystifyStrings-umbrella.h"
+
+  export *
+  module * { export * }
+}

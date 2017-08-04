@@ -1,0 +1,22 @@
+{
+  "name": "MystifyStrings",
+  "version": "0.1.0",
+  "summary": "A short description of MystifyStrings.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sagardesai16/MystifyStrings",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sagardesai16": "sagard@pocketapp.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/sagardesai16/MystifyStrings.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MystifyStrings/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MystifyStrings (0.1.0)
+
+DEPENDENCIES:
+  - MystifyStrings (from `../`)
+
+EXTERNAL SOURCES:
+  MystifyStrings:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MystifyStrings: 2e6430a53d2adb80b5adb340d59f8d3c1538b955
+
+PODFILE CHECKSUM: 29770f308199d0599f44ccd8a21a692476ddfdce
+
+COCOAPODS: 1.3.0
