@@ -44,8 +44,7 @@
 		72EB0B2028BFF7518F0BD6E0C4AAD4D3 /* Pods-MystifyStrings_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MystifyStrings_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		765DCD61F210AC42F277DC8A8ED1E6A9 /* Pods-MystifyStrings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MystifyStrings_Example-dummy.m"; sourceTree = "<group>"; };
 		830BA461FA36A76A18FE39B50BDFDBB8 /* Pods-MystifyStrings_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MystifyStrings_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D75670B1F347C39006F4BD8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8D75670C1F347C39006F4BD8 /* Mystifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mystifier.swift; sourceTree = "<group>"; };
+		8D75670C1F347C39006F4BD8 /* Mystifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mystifier.swift; path = MystifyStrings/Classes/Mystifier.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5F576AEA423AC732B12F670DEE7ED21 /* Pods-MystifyStrings_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MystifyStrings_Tests-resources.sh"; sourceTree = "<group>"; };
 		B2BF58445FC076BDDF0A94D08AB535F6 /* MystifyStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MystifyStrings.modulemap; sourceTree = "<group>"; };
@@ -158,16 +157,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		8D75670A1F347C39006F4BD8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8D75670B1F347C39006F4BD8 /* .gitkeep */,
-				8D75670C1F347C39006F4BD8 /* Mystifier.swift */,
-			);
-			name = Classes;
-			path = MystifyStrings/Classes;
-			sourceTree = "<group>";
-		};
 		A0B9EE259933D0E17A204513110EDCFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +174,7 @@
 		AA9D20BCCAA5060E0407E607ED98F993 /* MystifyStrings */ = {
 			isa = PBXGroup;
 			children = (
-				8D75670A1F347C39006F4BD8 /* Classes */,
+				8D75670C1F347C39006F4BD8 /* Mystifier.swift */,
 				A0B9EE259933D0E17A204513110EDCFE /* Support Files */,
 			);
 			name = MystifyStrings;
