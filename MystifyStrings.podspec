@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MystifyStrings'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Obfuscation of hard-coded security-sensitive strings.'
 
 # This description is used to generate tags and improve search results.

@@ -22,7 +22,7 @@ pod "MystifyStrings"
 
 ## Author
 
-sagardesai16, sagard@pocketapp.co.uk
+sagardesai16, sagardesai16@gmail.com
 
 ## License
 
