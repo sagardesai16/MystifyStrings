@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		35DCA03BF2C80CCE52842B52 /* Pods-MystifyStrings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MystifyStrings_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MystifyStrings_Tests/Pods-MystifyStrings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41ED305028195474D8420D18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		41ED305028195474D8420D18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4887E48572A48A04797D7B4D /* Pods-MystifyStrings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MystifyStrings_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MystifyStrings_Example/Pods-MystifyStrings_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B80D565ACEFE8B11D31C20E /* Pods_MystifyStrings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MystifyStrings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC399C08B8E00819B478B9C /* Pods_MystifyStrings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MystifyStrings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		81CEB461E98E4AEA4DCFC3DA /* Pods-MystifyStrings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MystifyStrings_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MystifyStrings_Example/Pods-MystifyStrings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		99D20B9CC702256D3B41B4D8 /* MystifyStrings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MystifyStrings.podspec; path = ../MystifyStrings.podspec; sourceTree = "<group>"; };
-		CFC887FA66EE11060C7645F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99D20B9CC702256D3B41B4D8 /* MystifyStrings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MystifyStrings.podspec; path = ../MystifyStrings.podspec; sourceTree = "<group>"; };
+		CFC887FA66EE11060C7645F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EFB25CD96564906BEDAA1A42 /* Pods-MystifyStrings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MystifyStrings_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MystifyStrings_Tests/Pods-MystifyStrings_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +215,9 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5BUCE3E52Z;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -505,11 +507,14 @@
 			baseConfigurationReference = 4887E48572A48A04797D7B4D /* Pods-MystifyStrings_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5BUCE3E52Z;
 				INFOPLIST_FILE = MystifyStrings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -519,11 +524,14 @@
 			baseConfigurationReference = 81CEB461E98E4AEA4DCFC3DA /* Pods-MystifyStrings_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5BUCE3E52Z;
 				INFOPLIST_FILE = MystifyStrings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
