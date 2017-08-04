@@ -30,7 +30,7 @@ Obfuscation of hard-coded security-sensitive strings. Which helps to enhance sec
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MystifyStrings/Classes/*'
+  s.source_files = 'MystifyStrings/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MystifyStrings' => ['MystifyStrings/Assets/*.png']
