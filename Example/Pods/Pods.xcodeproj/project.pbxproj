@@ -11,7 +11,7 @@
 		34B51D4AF57EB2B55449EB50AD32F24B /* MystifyStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3C1D3719F5F1BF2224085A5A9AABB /* MystifyStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6612AAC30BED3545D2120B2F234A9A58 /* Pods-MystifyStrings_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765DCD61F210AC42F277DC8A8ED1E6A9 /* Pods-MystifyStrings_Example-dummy.m */; };
 		68307324D486A8C1BD81FC4B03BE121D /* Pods-MystifyStrings_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41F8444FC637DE6E9FF090423A0502 /* Pods-MystifyStrings_Tests-dummy.m */; };
-		8D7566FF1F347116006F4BD8 /* Mystifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7566FE1F347116006F4BD8 /* Mystifier.swift */; };
+		8D7567021F34755D006F4BD8 /* Mystifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7567011F34755D006F4BD8 /* Mystifier.swift */; };
 		97FC857E942D4430CA9BEE9C2F79148F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A17D4D28C258421F49755B9A0D2A60BC /* Pods-MystifyStrings_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6786DC69C8F87389882DAE27CC34AE /* Pods-MystifyStrings_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0A2B6D6DE92B59D118978EFED3447E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -44,7 +44,7 @@
 		72EB0B2028BFF7518F0BD6E0C4AAD4D3 /* Pods-MystifyStrings_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MystifyStrings_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		765DCD61F210AC42F277DC8A8ED1E6A9 /* Pods-MystifyStrings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MystifyStrings_Example-dummy.m"; sourceTree = "<group>"; };
 		830BA461FA36A76A18FE39B50BDFDBB8 /* Pods-MystifyStrings_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MystifyStrings_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D7566FE1F347116006F4BD8 /* Mystifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mystifier.swift; sourceTree = "<group>"; };
+		8D7567011F34755D006F4BD8 /* Mystifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mystifier.swift; path = MystifyStrings/Classes/Mystifier.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5F576AEA423AC732B12F670DEE7ED21 /* Pods-MystifyStrings_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MystifyStrings_Tests-resources.sh"; sourceTree = "<group>"; };
 		B2BF58445FC076BDDF0A94D08AB535F6 /* MystifyStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MystifyStrings.modulemap; sourceTree = "<group>"; };
@@ -157,6 +157,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		8D7567001F34750B006F4BD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D7567011F34755D006F4BD8 /* Mystifier.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		A0B9EE259933D0E17A204513110EDCFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +182,7 @@
 		AA9D20BCCAA5060E0407E607ED98F993 /* MystifyStrings */ = {
 			isa = PBXGroup;
 			children = (
-				8D7566FE1F347116006F4BD8 /* Mystifier.swift */,
+				8D7567001F34750B006F4BD8 /* Classes */,
 				A0B9EE259933D0E17A204513110EDCFE /* Support Files */,
 			);
 			name = MystifyStrings;
@@ -326,7 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D7566FF1F347116006F4BD8 /* Mystifier.swift in Sources */,
+				8D7567021F34755D006F4BD8 /* Mystifier.swift in Sources */,
 				B6ED9249A46304C63BB2C73DBF7B3318 /* MystifyStrings-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
